@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SelectorButton">
+        <!--文字-->
+        <attr name="text_pressed_color" format="color"></attr>
+        <attr name="text_normal_color" format="color"></attr>
+        <attr name="text_unable_color" format="color"></attr>
+
+        <!--背景-->
+        <attr name="bg_pressed_color" format="color"></attr>
+        <attr name="bg_normal_color" format="color"></attr>
+        <attr name="bg_unable_color" format="color"></attr>
+
+        <!--背景圆角-->
+        <attr name="corner_radius" format="dimension"></attr>
+
+        <attr name="round" format="boolean"></attr>
+
+        <!--动画持续时间-->
+        <attr name="animation_duration" format="integer"/>
+
+    </declare-styleable>
+</resources>
