@@ -4,7 +4,7 @@
 
 贴张效果图：
 
-![效果图](https://github.com/HelleoCj/SelectorButton/screenshot.png)
+![](https://github.com/HelloCj/SelectorButton/blob/master/Screenshot.png)
 
 
 ## Step 1. Add the JitPack repository to your build file 
