@@ -14,12 +14,17 @@
     tools:context="com.richsoft.selectorbutton.MainActivity">
 
     <com.richsoft.selectorlibrary.SelectorButton
+        android:id="@+id/btn_red"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="按钮"
-        app:round="false"/>
+        app:bg_normal_color="@color/red500"
+        app:bg_pressed_color="@color/red300"
+        app:bg_unable_color="@color/red200"
+        />
 
     <com.richsoft.selectorlibrary.SelectorButton
+        android:id="@+id/btn_teal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -27,10 +32,14 @@
         app:round="true"/>
 
     <com.richsoft.selectorlibrary.SelectorButton
+        android:id="@+id/btn_blue"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="按钮"
+        app:bg_normal_color="@color/bule500"
+        app:bg_pressed_color="@color/bule300"
+        app:bg_unable_color="@color/bule200"
         app:corner_radius="5dp"
-        app:round="false"/>
+        />
 </LinearLayout>

@@ -3,4 +3,13 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="bule500">#00bcd4</color>
+    <color name="bule300">#4dd0e1</color>
+    <color name="bule200">#90caf9</color>
+
+
+    <color name="red500">#f44336</color>
+    <color name="red300">#e57373</color>
+    <color name="red200">#ef9a9a</color>
 </resources>
